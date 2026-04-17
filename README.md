@@ -35,20 +35,20 @@
 
 ## 文件结构
 
-插件目录位于 `/public/plugins/gateway/stripe_pay/`，上传后结构如下：
+### 插件目录位于 `/public/plugins/gateway/stripe_pay/`，上传后结构如下：
 
 stripe_pay/
--├── StripePay.php # 插件入口文件（必须）
--├── StripePay.png # 支付方式图标（200×100px）
--├── config/
--│ └── config.php # 后台配置表单定义
--├── controller/
--│ └── IndexController.php # 同步/异步回调处理器
--└── lib/ # Stripe PHP SDK（需手动放置）
--├── init.php
--├── lib/
--│ └── Stripe/
--└── data/
+├── StripePay.php # 插件入口文件（必须）
+├── StripePay.png # 支付方式图标（200×100px）
+├── config/
+│ └── config.php # 后台配置表单定义
+├── controller/
+│ └── IndexController.php # 同步/异步回调处理器
+└── lib/ # Stripe PHP SDK（需手动放置）
+├── init.php
+├── lib/
+│ └── Stripe/
+└── data/
 
 ---
 
