@@ -51,7 +51,7 @@ stripe_pay/
 │ └── Stripe/
 └── data/
 
----
+
 
 ## 安装步骤
 
