@@ -36,7 +36,7 @@
 ## 文件结构
 
 ### 插件目录位于 `/public/plugins/gateway/stripe_pay/`，上传后结构如下：
-
+---
 stripe_pay/
 ├── StripePay.php # 插件入口文件（必须）
 ├── StripePay.png # 支付方式图标（200×100px）
